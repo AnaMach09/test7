@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    position: relative;
+}
+
+header .img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+header img{
+    width: 100%;
+    height: 100%;
+    
+}
+header ul{
+    display: flex;
+    
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+header a{
+    padding: 22px 18px;
+    background-color: #C4C4C4;
+    border-radius: 0px 35px 0px 35px;
+    margin-right: 60px;
+    color: #000000;
+}
+header a:hover{
+    background-color: #79B331;
+    color: #ffffff;
+    cursor: pointer;
+}
+.wre{
+    width: 418px;
+    height: 182px;
+    
+    
+    position: absolute;
+    top: 212px;
+    right: 100px;
+}
+.patara{
+    width: 30px;
+    height: 30px;
+    background-color: #79B331;
+    
+    border-radius: 50%;
+    position: relative;
+    animation: triali 3s infinite;
+}
+@keyframes triali {
+    0%{top: 0; left: 0;}
+    25%{ top: 0; left:388px ;}
+    50%{top: 152px; left:388px ;}
+    75%{top: 152px; left: 0;}
+    100%{top:0;left: 0;
+
+    }
+}
+.aqcia{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+}
+.dro{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 32px;
+}
+.xe{
+    width: 900px;
+    height: 500px;
+    
+    position: absolute;
+    top: 480px;
+    right: 40px;
+    
+}
+.gero{
+    width: 1px;
+    height: 500px;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+}
+.toti{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: -70px;
+    left: 0;
+}
+.fotoli{
+    width: 70px;
+    height: 70px;
+    border-radius: 0px 35px 0px 35px ;
+    background-color: #C4C4C4;
+}
+.toti p{
+    width: 70%;
+    
+}
+.meore{
+    top: 30px;
+    left: 50%;
+}
+.mesame{
+    top: 130px;
+}
+.meotxe{
+    top: 230px;
+    left: 50%;
+}
+.right{
+    transform: rotate(90deg);
+}
+.fotoli:hover{
+    background-color: #79B331;
+}
+.toti p:hover{
+    color: #79B331;
+}
+@media only screen and (max-width: 1024px) {
+    .xe{
+        width: 100%;
+    }
+    .right{
+        transform: rotate(0deg);
+    }
+    .meore, .meotxe{
+        flex-direction: row-reverse;
+    }
+    .meore, .meotxe{
+        left: 0;
+    }
+  
+}
+
+
+
